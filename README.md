@@ -1,10 +1,10 @@
 # js-signup-form
 A webpage implementation of a basic service sign-up form<br>
 
-[Live Demo]()
+[Live Demo](https://sorrrb.github.io/js-signup-form/)
 
 ## Demo Preview
-![Form Demo]()
+![Form Demo](./assets/demopreview.png)
 
 ### Changelog
 
