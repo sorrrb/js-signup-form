@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <title>Sign-Up Form</title>
   <script src="./script.js"></script>
 </head>
 <body>
@@ -24,9 +24,37 @@
         <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
         <h2>You <em>know</em> you want to.</h2>
       </div>
-      <div class="form-controls"></div>
+      <div class="form-controls">
+        <h2>Let's do this!</h2>
+        <form action="" method="post">
+          <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" size="25">
+          </div>
+          <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" size="25">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" size="25">
+          </div>
+          <div>
+            <label for="phoneNum">Phone Number</label>
+            <input type="tel" id="phoneNum" size="25">
+          </div>
+          <div>
+            <label for="newPass">Password</label>
+            <input type="password" id="newPass" size="25">
+          </div>
+          <div>
+            <label for="confPass">Confirm Password</label>
+            <input type="password" id="confPass" size="25">
+          </div>
+        </form>
+      </div>
       <div>
-        <button class="form-register">Create Account</button>
+        <button class="form-register"><a href="#">Create Account</a></button>
         <p class="form-register-text">Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>

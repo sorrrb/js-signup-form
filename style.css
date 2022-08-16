@@ -34,7 +34,7 @@ a {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20%;
+  top: 25%;
   background-color: #27272798;
 }
 
@@ -46,21 +46,22 @@ a {
 .form-controls-bg {
   height: 100%;
   width: 60%;
-  background-color: #fcfdff;
+  background-color: #f9fafb;
   position: relative;
   left: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 48px;
+  gap: 32px;
 }
 
 .form-controls {
-  height: 35%;
   width: 100%;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   box-shadow: 2px 6px 6px hsla(0, 0%, 0%, 0.1), 0px -4px 6px hsla(0, 0%, 0%, 0.045);
+  padding-top: 24px;
+  padding-bottom: 36px;
 }
 
 h1 {
@@ -77,6 +78,7 @@ h2, em {
   font-family: Roboto, sans-serif;
   font-size: 24px;
   line-height: 1.25;
+  margin-top: 0;
 }
 
 .form-text:last-child {
@@ -96,13 +98,16 @@ h2, em {
   margin-bottom: 16px;
   margin-left: 48px;
   padding: 12px 48px;
-  font-size: 16px;
   background-color: #d3903d;
   border: none;
   border-radius: 8px;
-  color: white;
-  font-weight: 600;
   box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.125);
+}
+
+.form-register > a {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .form-register-text, .form-register-text > a {
@@ -133,4 +138,61 @@ h2 {
 
 .image-inline-cite {
   text-decoration: underline;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+.form-controls > * {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+table {
+  border-spacing: 48px 0;
+}
+
+.thead {
+  text-align: left;
+}
+
+.tabular {
+  display: flex;
+}
+
+label {
+  display: block;
+}
+
+input {
+  background-color: #FFFEFE;
+  border-radius: 4px;
+  border: 1px solid #E5E7EB;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+h2:last-child {
+  margin-bottom: 48px;
+}
+
+form > div {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+form {
+  max-width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 72px;
 }
