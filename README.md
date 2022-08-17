@@ -7,6 +7,7 @@ A webpage implementation of a basic service sign-up form<br>
 ![Form Demo](./assets/demopreview.png)
 
 ### Changelog
+N/A
 
 ### Languages
 - HTML
@@ -19,3 +20,6 @@ A webpage implementation of a basic service sign-up form<br>
 ![Dawid Zawiła](https://unsplash.com/photos/-G3rw6Y02D0)
 
 #### To-Do
+Implement Regex
+Tweak responsiveness
+Adjust client-side validation features

@@ -15,7 +15,7 @@
   </div>
   <div class="form-backdrop">
     <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</h1>
-    <form action="" method="post">
+    <form action="" method="post" id="form1">
       <h1>Let's do this!</h1>
       <div class="input-wrapper">
         <div>
@@ -36,17 +36,17 @@
         </div>
         <div>
           <label for="newPass">Password</label>
-          <input type="password" id="newPass" size="25" required class="error">
-          <p class="error-message">* Passwords do not match</p>
+          <input type="password" id="newPass" size="25" required>
+          <p id="error-message" class="hidden">* Passwords do not match</p>
         </div>
         <div>
           <label for="confPass">Confirm Password</label>
-          <input type="password" id="confPass" size="25" required class="error">
+          <input type="password" id="confPass" size="25" required>
         </div>
       </div>
     </form>
     <div>
-      <button><a href="">Create Account</a></button>
+      <button type="submit" form="form1" value="Create Account">Create Account</button>
       <p class="register-text">Already have an account? <a href="#">Log in</a></p>
     </div>
   </div>

@@ -143,11 +143,12 @@ h1 > em {
   margin-top: 12px;
   margin-bottom: 36px;
   box-shadow: 2px 2px 6px hsla(0, 0%, 0%, 0.2);
-}
-
-button a {
   color: #ffffff;
   text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .register-text {
@@ -205,8 +206,12 @@ input:focus {
   outline: 1px solid #d77e7e;
 }
 
-.error-message {
+#error-message {
   color: #d31a1a;
   font-size: 0.75rem;
   margin-top: 2px;
+}
+
+.hidden {
+  display: none;
 }
