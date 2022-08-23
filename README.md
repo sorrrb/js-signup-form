@@ -17,7 +17,7 @@ N/A
 ### Concepts
 
 ## Attribution(s)
-![Dawid Zawiła](https://unsplash.com/photos/-G3rw6Y02D0)
+[Dawid Zawiła](https://unsplash.com/photos/-G3rw6Y02D0)
 
 #### To-Do
 Implement Regex
