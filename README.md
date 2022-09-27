@@ -1,4 +1,4 @@
-# js-signup-form
+# signup-form
 A webpage implementation of a basic service sign-up form<br>
 
 [Live Demo](https://sorrrb.github.io/js-signup-form/)
